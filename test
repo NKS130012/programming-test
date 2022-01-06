@@ -1,4 +1,4 @@
-<script>
+
 
 // JavaScript program to find the maximum
 // score after given operations
@@ -54,17 +54,4 @@ function findMaxScore(a, n)
 	}
 
 	return maxScore(0, n - 1,
-					prefix_sum, 1);
-}
-
-// Driver code
-
-	let n = 6;
-	let A = [ 1, 2, 3, 4, 2, 6 ];
-
-	document.write(findMaxScore(A, n));
-
-
-// This code is contributed by Surbhi Tyagi.
-
-</script>
+				
